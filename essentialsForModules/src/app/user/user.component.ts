@@ -1,6 +1,5 @@
 import { Component, Output, EventEmitter, input } from '@angular/core';
 import { UserType } from './user.model';
-import { Card } from "../shared/card/card.component";
 
 // import { DUMMY_USERS } from '../dummy.users';
 
@@ -25,11 +24,10 @@ type UserType = {
 
 
 @Component({
+  standalone: false,
   selector: 'app-user',
-  standalone: true,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
-  imports: [Card],
 })
 
 export class User {

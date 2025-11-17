@@ -23,6 +23,7 @@
           "text-wrap: balance"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }
